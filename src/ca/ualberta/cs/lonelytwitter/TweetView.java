@@ -1,7 +1,7 @@
 package ca.ualberta.cs.lonelytwitter;
 
 
-public interface tweetView
+public interface TweetView
 {
 	String formatTweet(LonelyTweetModel lt);
 	

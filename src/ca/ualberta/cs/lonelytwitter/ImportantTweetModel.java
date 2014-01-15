@@ -2,17 +2,17 @@ package ca.ualberta.cs.lonelytwitter;
 
 import java.util.Date;
 
-public class importantTweetModel extends LonelyTweetModel
+public class ImportantTweetModel extends LonelyTweetModel
 {
 
-	public importantTweetModel(String text)
+	public ImportantTweetModel(String text)
 	{
 
 		super(text);
 		// TODO Auto-generated constructor stub
 	}
 	
-	public importantTweetModel(String text, Date timestamp)
+	public ImportantTweetModel(String text, Date timestamp)
 	{
 
 		super(text,timestamp);
