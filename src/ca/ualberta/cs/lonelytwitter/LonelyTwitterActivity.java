@@ -71,7 +71,6 @@ public class LonelyTwitterActivity extends Activity {
                 FileInputStream fis = openFileInput(FILENAME);
                 BufferedReader in = new BufferedReader(new InputStreamReader(fis));
                 String line = in.readLine();
-                System.out.println(line);
                 while (line != null) {
                         System.out.println(line);
                         LonelyTweetModel json = gson.fromJson(line, NormalTweetModel.class);
